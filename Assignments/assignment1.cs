@@ -1,6 +1,6 @@
 using System;
 
-namespace Assignment1
+namespace Assignment
 {
     public class Assignment1
     {
