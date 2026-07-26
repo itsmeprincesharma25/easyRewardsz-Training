@@ -236,6 +236,65 @@ namespace Assignment
 
             Console.WriteLine("\nQuestion 36:");
             Assignment4.Calculator();
+
+            // Assignment 5
+
+            Console.WriteLine("\nQuestion 1:");
+            assignment5.checkAge();
+
+            Console.WriteLine("\nQuestion 2:");
+            assignment5.numAnalysis();
+
+            Console.WriteLine("\nQuestion 3:");
+            assignment5.mult();
+
+            Console.WriteLine("\nQuestion 4:");
+            assignment5.enterNum();
+
+            Console.WriteLine("\nQuestion 5:");
+            assignment5.multi6To9();
+
+            Console.WriteLine("\nQuestion 6:");
+            assignment5.height();
+
+            Console.WriteLine("\nQuestion 7:");
+            assignment5.saveArray();
+
+            Console.WriteLine("\nQuestion 8:");
+            assignment5.fact();
+
+            Console.WriteLine("\nQuestion 9:");
+            assignment5.d2arr();
+
+            Console.WriteLine("\nQuestion 10:");
+            assignment5.fizz();
+
+            Console.WriteLine("\nQuestion 11:");
+            assignment5.Zara();
+
+            Console.WriteLine("\nQuestion 12:");
+            assignment5.ages();
+
+            Console.WriteLine("\nQuestion 13:");
+            assignment5.proragram2();
+
+            Console.WriteLine("\nQuestion 14:");
+            assignment5.revnum();
+
+            Console.WriteLine("\nQuestion 15:");
+            assignment5.bmi();
+
+            Console.WriteLine("\nQuestion 16:");
+            assignment5.bmi2();
+
+            Console.WriteLine("\nQuestion 17:");
+            assignment5.stumarks();
+
+            Console.WriteLine("\nQuestion 18:");
+            assignment5.storemarks();
+
+            Console.WriteLine("\nQuestion 19:");
+            assignment5.freq();
         }
 
     }
