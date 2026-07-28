@@ -4,6 +4,7 @@ namespace Assignments
 {
     public class Assignment7
     {
+        // Question 1: Count Vowels and Consonants
         public static void CountLetters(string str)
         {
             int vowel = 0;
@@ -33,8 +34,6 @@ namespace Assignments
         public static string ReverseString(string str)
         {
             string rev = "";
-
-            // Reverse the string manually
             for (int i = str.Length - 1; i >= 0; i--)
             {
                 rev += str[i];
@@ -48,8 +47,6 @@ namespace Assignments
         {
             int left = 0;
             int right = str.Length - 1;
-
-            // Compare characters from both ends
             while (left < right)
             {
                 if (str[left] != str[right])
@@ -71,8 +68,7 @@ namespace Assignments
 
             foreach (char ch in str)
             {
-                // Add character only once
-                if (!ans.Contains(ch))
+                if (!ans.Contains(ch))  // Add character only once
                 {
                     ans += ch;
                 }
@@ -199,8 +195,7 @@ namespace Assignments
 
             foreach (char c in str)
             {
-                // Skip the given character
-                if (c != ch)
+                if (c != ch)    // Skip the given character
                 {
                     ans += c;
                 }
