@@ -1,103 +1,95 @@
 using System;
 
-namespace Assignment
+namespace Assignments
 {
-    class assignment6
+    public class Assignment6
     {
 
     //level 1
-    //question-1 
-    public static void SimpleInterest()
-    {
-        Console.Write("Enter Principal: ");
-        double principal = double.Parse(Console.ReadLine()!);
-        Console.Write("Enter Rate: ");
-        double rate = double.Parse(Console.ReadLine()!);
-        Console.Write("Enter Time: ");
-        double time = double.Parse(Console.ReadLine()!);
-        double si = (principal * rate * time) / 100;
+        // Question 1: Simple Interest
+        public static void SimpleInterest()
+        {
+            Console.Write("Enter Principal: ");
+            double principal = double.Parse(Console.ReadLine()!);
+            Console.Write("Enter Rate: ");
+            double rate = double.Parse(Console.ReadLine()!);
+            Console.Write("Enter Time: ");
+            double time = double.Parse(Console.ReadLine()!);
 
-        Console.WriteLine($"The Simple Interest is {si} for Principal {principal}, Rate {rate}% and Time {time}");
-    }
+            double si = (principal * rate * time) / 100;
+            Console.WriteLine($"Simple Interest = {si:F2}");
+        }
 
-
-        //question-2
+        // Question 2: Maximum Handshakes
         public static void HandShakes()
-    {
-        Console.Write("Enter number of students: ");
-        int n = int.Parse(Console.ReadLine()!);
-        int handshakes = (n * (n - 1)) / 2;
+        {
+            Console.Write("Enter number of students: ");
+            int n = int.Parse(Console.ReadLine()!);
 
-        Console.WriteLine($"Maximum possible handshakes = {handshakes}");
-    }
+            int handshakes = (n * (n - 1)) / 2;
+            Console.WriteLine($"Maximum Handshakes = {handshakes}");
+        }
 
-        //question 3
+        // Question 3: Athlete Rounds
         public static void AthleteRounds()
-    {
-        Console.Write("Enter Side 1: ");
-        double s1 = double.Parse(Console.ReadLine()!);
-        Console.Write("Enter Side 2: ");
-        double s2 = double.Parse(Console.ReadLine()!);
+        {
+            Console.Write("Enter Side 1: ");
+            double s1 = double.Parse(Console.ReadLine()!);
+            Console.Write("Enter Side 2: ");
+            double s2 = double.Parse(Console.ReadLine()!);
+            Console.Write("Enter Side 3: ");
+            double s3 = double.Parse(Console.ReadLine()!);
 
-        Console.Write("Enter Side 3: ");
-        double s3 = double.Parse(Console.ReadLine()!);
-        double perimeter = s1 + s2 + s3;
-        double rounds = 5000 / perimeter;
+            double perimeter = s1 + s2 + s3;
+            double rounds = 5000 / perimeter;
 
-        Console.WriteLine($"Rounds required = {Math.Ceiling(rounds)}");
-    }
+            Console.WriteLine($"Rounds Required = {Math.Ceiling(rounds)}");
+        }
 
-        //question 4
+        // Question 4: Check Number
         public static void CheckNumber()
-    {
-        Console.Write("Enter a number: ");
-        int num = int.Parse(Console.ReadLine()!);
-        if (num > 0)
-            Console.WriteLine("Positive");
-        else if (num < 0)
-            Console.WriteLine("Negative");
-        else
-            Console.WriteLine("Zero");
-    }
+        {
+            Console.Write("Enter a number: ");
+            int num = int.Parse(Console.ReadLine()!);
 
+            if (num > 0)
+                Console.WriteLine("Positive");
+            else if (num < 0)
+                Console.WriteLine("Negative");
+            else
+                Console.WriteLine("Zero");
+        }
 
-        //question 5
+        // Question 5: Spring Season
         public static void SpringSeason()
-    {
-        Console.Write("Enter Month: ");
-        int month = int.Parse(Console.ReadLine()!);
-
-        Console.Write("Enter Day: ");
-        int day = int.Parse(Console.ReadLine()!);
-
-        if ((month == 3 && day >= 20) ||
-            (month == 4) ||
-            (month == 5) ||
-            (month == 6 && day <= 20))
         {
-            Console.WriteLine("Its a Spring Season");
-        }
-        else
-        {
-            Console.WriteLine("Not a Spring Season");
-        }
-    }
+            Console.Write("Enter Month: ");
+            int month = int.Parse(Console.ReadLine()!);
+            Console.Write("Enter Day: ");
+            int day = int.Parse(Console.ReadLine()!);
 
-        //question 6
+            if ((month == 3 && day >= 20) ||
+                month == 4 ||
+                month == 5 ||
+                (month == 6 && day <= 20))
+                Console.WriteLine("It is Spring Season");
+            else
+                Console.WriteLine("It is not Spring Season");
+        }
+
+        // Question 6: Sum of Natural Numbers
         public static void SumNaturalNumbers()
-    {
-        Console.Write("Enter N: ");
-        int n = int.Parse(Console.ReadLine()!);
-
-        int sum = 0;
-
-        for (int i = 1; i <= n; i++)
         {
-            sum += i;
-        }
+            Console.Write("Enter N: ");
+            int n = int.Parse(Console.ReadLine()!);
 
-        Console.WriteLine($"Sum = {sum}");
-    }
+            int sum = 0;
+
+            for (int i = 1; i <= n; i++)
+                sum += i;
+
+            Console.WriteLine($"Sum = {sum}");
+        }
 
         //question 7
         public static void SmallestLargest()

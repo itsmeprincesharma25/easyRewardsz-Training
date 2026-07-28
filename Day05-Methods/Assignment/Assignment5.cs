@@ -2,7 +2,7 @@ using System;
 
 namespace Assignments
 {
-    public class assignment5
+    public class Assignment5
     {
         public static void checkAge()
         {
@@ -367,7 +367,7 @@ namespace Assignments
             Console.WriteLine("Height: " + h[tIdx]);   
         }
 
-        public static void proragram2()
+        public static void Proragram2()
         {
             Console.Write("Enter a n: ");
             long n= long.Parse(Console.ReadLine()!);
