@@ -1,3 +1,5 @@
-# EasyRewardz C# Training Repository
+<h1 align="center">EasyRewardz C# Training Repository</h1>
 
-This repository contains my daily code, practice problems, and hands-on modules for C# and .NET development at EasyRewardsz.
+<p align="center">
+This repository contains my daily code, practice problems, and hands-on modules for C# and .NET development at EasyRewardz.
+</p>
