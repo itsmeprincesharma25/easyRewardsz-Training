@@ -1,0 +1,3 @@
+﻿hello c# streams
+this is a sample file.
+error found here.
