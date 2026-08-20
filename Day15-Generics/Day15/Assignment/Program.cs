@@ -37,11 +37,8 @@ namespace Day15
             Console.WriteLine("\nUniversity:");
             exam.Show();
 
-
             // 4. Meal Plan
-
-            Meal<VegetarianMeal> veg=
-                new Meal<VegetarianMeal>(new VegetarianMeal());
+            new Meal<VegetarianMeal>(new VegetarianMeal());
 
             Console.WriteLine("\nMeal Plan:");
             veg.Generate();
@@ -49,8 +46,7 @@ namespace Day15
 
             // 5. Resume Screening
 
-            Resume<SoftwareEngineer> resume =
-                new Resume<SoftwareEngineer>();
+            Resume<SoftwareEngineer> resume = new Resume<SoftwareEngineer>();
 
             resume.Add(new SoftwareEngineer("Rahul"));
             resume.Add(new SoftwareEngineer("Aman"));
