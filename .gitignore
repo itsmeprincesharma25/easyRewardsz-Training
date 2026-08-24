@@ -1,4 +1,5 @@
+.idea/
 bin/
 obj/
-.vscode/
-.DS_Store
+.vs/
+tempCodeRunnerFile.cs
